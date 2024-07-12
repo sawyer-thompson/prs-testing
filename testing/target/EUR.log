@@ -1,0 +1,30 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile target/EUR.QC
+  --extract target/EUR.valid.snp
+  --out target/EUR
+  --q-score-range target/range_list target/SNP.pvalue
+  --score base/Height.QC.Transformed 3 4 12 header
+
+Hostname: DESKTOP-7P18709
+Working directory: c:\Users\Sawyer\Documents\VSC Projects\prs-testing\testing
+Start time: Thu Jul 11 19:12:40 2024
+
+Random number seed: 1720739560
+32682 MB RAM detected; reserving 16341 MB for main workspace.
+540534 variants loaded from .bim file.
+483 people (232 males, 251 females) loaded from .fam.
+--extract: 193758 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 483 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+193758 variants and 483 people pass filters and QC.
+Note: No phenotypes present.
+Warning: 305859 lines skipped in --score file (305859 due to variant ID
+mismatch, 0 due to allele code mismatch); see target/EUR.nopred for details.
+--score: 193758 valid predictors loaded.
+Error: Line 1 of --q-score-range data file has fewer tokens than
+expected.
+
+End time: Thu Jul 11 19:12:41 2024

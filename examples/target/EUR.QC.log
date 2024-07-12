@@ -1,0 +1,30 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile target/EUR
+  --extract target/EUR.QC.prune.in
+  --keep target/EUR.QC.valid
+  --out target/EUR.QC
+  --rel-cutoff 0.125
+
+Hostname: DESKTOP-7P18709
+Working directory: c:\Users\Sawyer\Documents\VSC Projects\ppi_py-main\examples
+Start time: Thu Jul 11 13:47:07 2024
+
+Random number seed: 1720720027
+32682 MB RAM detected; reserving 16341 MB for main workspace.
+551892 variants loaded from .bim file.
+503 people (240 males, 263 females) loaded from .fam.
+--extract: 268457 variants remaining.
+--keep: 483 people remaining.
+Using up to 23 threads (change this with --threads).
+Before main variant filters, 483 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.999957.
+268457 variants and 483 people pass filters and QC (before --rel-cutoff).
+Note: No phenotypes present.
+Excluding 5229 variants on non-autosomes from relationship matrix calc.
+Relationship matrix calculation complete.
+0 people excluded by --rel-cutoff.
+Remaining sample IDs written to target/EUR.QC.rel.id .
+
+End time: Thu Jul 11 13:47:09 2024
