@@ -1,0 +1,26 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile target/EUR
+  --extract target/EUR.QC.snplist
+  --keep target/EUR.QC.rel.id
+  --make-bed
+
+Hostname: DESKTOP-7P18709
+Working directory: c:\Users\Sawyer\Documents\VSC Projects\prs-testing\testing
+Start time: Thu Jul 11 17:46:33 2024
+
+Random number seed: 1720734393
+32682 MB RAM detected; reserving 16341 MB for main workspace.
+551892 variants loaded from .bim file.
+503 people (240 males, 263 females) loaded from .fam.
+--extract: 540534 variants remaining.
+--keep: 483 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 483 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.999918.
+540534 variants and 483 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to plink.bed + plink.bim + plink.fam ... done.
+
+End time: Thu Jul 11 17:46:34 2024

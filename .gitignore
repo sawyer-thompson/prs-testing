@@ -1,0 +1,7 @@
+*.exe
+*.gz
+
+/target/
+/base/
+
+!.gitignore
